@@ -1,15 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useDispatch } from "react-redux";
-import { useRouter } from "next/navigation";
-import { setFilters } from "@/state";
+import { motion } from "framer-motion";
+import { ArrowRightCircle } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowRightCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
